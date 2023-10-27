@@ -1,0 +1,15 @@
+/* Bouton */
+.btn-blue {
+    padding: 12px 25px;
+    background-color: #F9C784; /* Pêche Clair */
+    color: #485696; /* Bleu Foncé */
+    border-radius: 25px;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block;
+}
+
+.btn-blue:hover {
+    background-color: #F24C00; /* Rouge-Orange pour l'effet de survol */
+    transform: scale(1.05); 
+}
